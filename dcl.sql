@@ -22,7 +22,7 @@ revoke select on sh.emp1 from ishan;
 revoke update on sh.emp1 from ishan;
 
 
--- create three users and create a group (roll) with the name sales select,insert ,update and add user in the roll 
+-- create three users and create a group (role) with the name sales select,insert ,update and add user in the roll 
 -- login in roll and check permision granted or not 
 
 create user a identified by '123';
